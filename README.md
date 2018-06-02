@@ -1,6 +1,8 @@
 # text_twitter_minining
 for apally data mining project
 
+I strongly recommend reading this chapter before this week's practical to give you further background in addition to the lecture material: http://www.nltk.org/book/ch06.html
+
 
 The instruction of the code is not design in a 'click and run' format, so to use the code,
  user should open it in python and change the location of dataset (line 132   's = 'C:\\Users\\Hasee\\Desktop\\final project of adm\\gb-celebs\\gb-celebs')
