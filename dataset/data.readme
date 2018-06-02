@@ -1,0 +1,7 @@
+DESCRIPTION:
+A collection of verified "British celebrities" on Twitter, with each user assigned a gender
+, age and age group (all taken from wikipedia). The data is in JSON format, with the metadata 
+and tweets in one file per user (it is pretty printed so you can examine it)
+
+
+The data set can be found in the wikipedia and also is uploaded
