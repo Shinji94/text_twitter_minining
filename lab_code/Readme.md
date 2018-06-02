@@ -4,7 +4,30 @@ code used in lab
 still figuring out how to use other's git but code can be found here : https://github.com/barona586/adm
 
 
-First you will continue from where you left off in Week 16. The base code for the last lab is provided, where you completed some feature extraction (feel free to use your own previous feature extractors), but be aware there have been some small updates to the code:
+1. Setup
+This week's code is available on a GitHub repo: https://github.com/barona586/adm
+
+From the VM (or your own machine), clone the repo with:
+
+$ git clone https://github.com/barona586/adm.git
+
+Or, if already cloned previously, you can run:
+
+$ git pull
+
+from the repository, and you should get the new material.
+
+Best to do this in your h-drive. You will find week14, week15, and week16 there too. For week20 you may need to install some python packages, these are listed in week20/requirements.txt. Simply run:
+
+$ sudo pip install -r requirements.txt
+
+Also there are nltk packages to download, this easiest down by running the supplied python script:
+
+$ python3 install_nltk_packages.py
+
+For the first part of the lab, you will be using the MP Twitter data you used previously. It is available to download and unzip from: https://modules.lancaster.ac.uk/pluginfile.php/1583319/mod_page/content/4/mps.zip  I can't put this on the GitHub repo unfortunately.
+
+The Twitter data is the tweets from a series of labour and conservative MPs. It is the raw full_text from the Twitter API, you will probably want to clean it up and tokenise it sensibly (as per last previous labs) if you haven't already.
 
 Document.py: added the ability to process a document from a text file, or raw text, and a binary term frequency method. Reduced feature set used to just bow.
 Corpus-nltk.py: is an updated version of Corpus.py, with a new method for converting to a features usable for classification in NLTK.
